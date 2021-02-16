@@ -1,14 +1,23 @@
-# [Agency Jekyll Theme](https://github.com/raviriley/agency-jekyll-theme) Starter Template
-[![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency.svg)](https://rubygems.org/gems/jekyll-agency)
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/raviriley/agency-jekyll-theme/blob/master/LICENSE.txt)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/raviriley)
+# Pulse Bioinformatics, University of Saskatchewan
 
-This is the fastest and easiest way to get up and running on GitHub Pages.
-Simply generate your own repository by clicking the [![template button](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/raviriley/agency-jekyll-theme-starter/generate) button, 
-then replace the sample content with your own and configure for your needs.
+This repository houses the source code for the **Pulse Bioinformatics, University of Saskatchewan** organization website hosted here: [https://uofs-pulse-binfo.github.io/](https://uofs-pulse-binfo.github.io/).
 
-If you want your website to be at `YOUR-USERNAME.github.io`, that's what you must name your repo. If you want it to be like this: `https://raviriley.github.io/agency-jekyll-theme-starter/`, them make sure the `baseurl` in `_config.yml` matches the name of your repo.
+# How to Update
 
-**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/raviriley) to continue developing and maintaining it.**
+### Site Metadata
 
-[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/raviriley)
+Edit the YAML file in _data/sitetext.yml to change Services, Timeline, Team, etc. The images are stored in `assets\img` and appropriately named folders. For example, team pictures are in `assets\img\team`.
+
+### Top Navigation Bar
+
+This is stored in _data/navigation.yml
+
+### Portfolio
+
+Portfolio projects are in `_portfolio`. Each project is represented as a markdown file and must include a properly formatted metadata header.
+
+Images are in `assets/img/portfolio`
+
+## Agency Jekyll theme
+
+The UofS Pulse Bioinformatics webpage has been developed using the Agency Jekyll Theme created by [raviriley](https://github.com/raviriley/agency-jekyll-theme). Furthermore the Jekyll theme was based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/).
