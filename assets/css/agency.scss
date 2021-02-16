@@ -30,3 +30,33 @@ $contact-image: "{{ site.data.style.contact-image }}";
 @import "layout/team.scss";
 @import "layout/contact.scss";
 @import "layout/footer.scss";
+
+// UofS Pulse Specific Alterations
+header.masthead {
+	color: #f5f4ff;
+}
+
+#mainNav {
+	background-color: rgba(0,0,0,0.65);
+}
+
+.bg-light {
+  background-color: #f5f4ff !important;
+}
+
+header.masthead .intro-text .intro-heading {
+	font-size: 50px;
+}
+header.masthead .intro-text .intro-lead-in,
+	header.masthead .intro-text .intro-heading {
+
+	text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+  background-color: rgba(46, 44, 63, 0.3);
+}

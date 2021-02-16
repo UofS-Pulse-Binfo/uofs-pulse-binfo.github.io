@@ -1,7 +1,7 @@
 header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: Pulse Bioinformatics, University of Saskatchewan
+    text: Welcome to our Virtual Office!
+    button: So, what do we do here?
     buttonlink: "#services"
 
 services:
@@ -122,7 +122,7 @@ team:
 
 contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "We can be contacted by submitting an issue to the appropriate GitHub Issue Queue for one of our projects."
     section: contact
 
 footer:
