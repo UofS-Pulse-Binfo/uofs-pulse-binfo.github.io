@@ -6,35 +6,35 @@ header:
 
 services:
     title: "Services"
-    text: "Lorem ipsum"
+    text: "Our team works for Pulse Breeders and Researchers at the University of Saskatchewan. Our services are not currently for hire."
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Module Development"
+        desc: "We develop Tripal and Drupal modules to support biological data portals with extensive configuration and documentation."
+        icon: fas fa-puzzle-piece #find more at https://fontawesome.com/icons
+      - title: "Third-Party Tool Integration"
+        desc: "To provide a consistent user experience, we focus on integrating third-party tools into Drupal/Tripal for a seamless experience."
+        icon: fas fa-tools
+      - title: "[KnowPulse](https://knowpulse.usask.ca)"
+        desc: "We support, maintain and extend KnowPulse: a web-resource focused on diversity data for pulse crop improvement."
+        icon: fas fa-seedling
 
 portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Our Extension Modules"
+    text: "The following modules are all open-source and freely available on our [GitHub Organization](https://github.com/UofS-Pulse-Binfo). Each one focuses on providing high quality generic functionality including configuration forms, theme-able elements, application programmer interfaces (API), data importers, etc. Furthermore, we strive to document it all!"
     section: portfolio
     closebutton: "Close Project"
 
 
 timeline:
     title: "About"
-    text: "Lorem ipsum timeline"
+    text:
     section: timeline
     # left is the default
     #start_align: "left"
     events:
       - title: "Our Humble Beginnings"
-        year: "2009-2011"
+        year: "2009"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/1.jpg
         alt:
