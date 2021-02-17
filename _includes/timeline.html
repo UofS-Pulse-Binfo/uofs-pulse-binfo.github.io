@@ -29,8 +29,14 @@
                 <li>
               {% endif %}
             {%- endif -%}
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | default: ""}}">
+              <div class="timeline-image timeline-image-{{ forloop.index }}">
+                {%- if event.image -%}
+                  <img class="img-fluid" src="{{site.baseurl}}/{{ event.image }}" alt="{{ event.alt | default: ""}}">
+                {%- else -%}
+                  <span class="fa-stack fa-4x">
+                    <i class="{{ event.icon | default: "fas fa-calendar-alt" }} fa-stack-1x fa-inverse"></i>
+                  </span>
+                {% endif %}
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -42,9 +48,9 @@
                 </div>
               </div>
             </li>
-		  {% endfor %}	
-            
-		  {% if site.data.sitetext.timeline.end %}	
+		  {% endfor %}
+
+		  {% if site.data.sitetext.timeline.end %}
 			<li class="timeline-inverted">
               <div class="timeline-image">
                 <h4>{{ site.data.sitetext.timeline.end }}</h4>

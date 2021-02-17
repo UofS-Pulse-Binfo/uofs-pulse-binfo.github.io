@@ -65,3 +65,58 @@ header.masthead .intro-text .intro-lead-in,
 #portfolio .portfolio-item .portfolio-caption {
   background-color: rgba(46, 44, 63, 0.3);
 }
+
+ul.timeline > li .timeline-image {
+	background-color: rgb(46, 44, 63);
+}
+#timeline .fa-stack {
+	height: 170px;
+	width: 170px;
+	line-height: 90px;
+	font-size: 90px;
+	top: 30px;
+	left: -7px;
+	position: relative;
+}
+#timeline .fa-stack .fas.fa-code-branch {
+	left: 7px;
+}
+#timeline .timeline-image-2 img {
+	width: 84px;
+	height: 75px;
+	margin-top: 40px;
+	margin-left: 8px;
+}
+#timeline .timeline-image-5 img {
+	width: 127px;
+	height: 64px;
+	margin-top: 40px;
+	margin-left: -7px;
+}
+#timeline .timeline-image-6 img {
+	width: 93px;
+	height: 82px;
+	margin-top: 30px;
+	margin-left: 0px;
+}
+
+#team .team-member img {
+	border: 0;
+	width: 125px;
+	height: 125px;
+}
+
+#team .team-member h4 {
+	margin-top: 10px;
+	font-size: 1.2em;
+}
+
+#team .team-member p {
+	margin-bottom: 5px;
+}
+ul.social-buttons li a {
+	font-size: 15px;
+	line-height: 35px;
+	width: 35px;
+	height: 35px;
+}

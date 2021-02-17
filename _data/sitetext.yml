@@ -1,7 +1,7 @@
 header:
-    title: Pulse Bioinformatics, University of Saskatchewan
-    text: Welcome to our Virtual Office!
-    button: So, what do we do here?
+    title: "Pulse Bioinformatics: KnowPulse,<br />University of Saskatchewan"
+    text: "Welcome to our Virtual Office!"
+    button: "So, what do we do here?"
     buttonlink: "#services"
 
 services:
@@ -18,80 +18,63 @@ services:
       - title: "[KnowPulse](https://knowpulse.usask.ca)"
         desc: "We support, maintain and extend KnowPulse: a web-resource focused on diversity data for pulse crop improvement."
         icon: fas fa-seedling
-
 portfolio:
     title: "Our Extension Modules"
     text: "The following modules are all open-source and freely available on our [GitHub Organization](https://github.com/UofS-Pulse-Binfo). Each one focuses on providing high quality generic functionality including configuration forms, theme-able elements, application programmer interfaces (API), data importers, etc. Furthermore, we strive to document it all!"
     section: portfolio
     closebutton: "Close Project"
 
-
 timeline:
     title: "About"
-    text:
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id semper massa, at rutrum tellus. Curabitur porta facilisis dictum. Nam vel odio id arcu accumsan venenatis. Donec cursus ac nunc ut tempor. Etiam sit amet massa quis justo mollis tincidunt. Quisque consequat at tellus sit amet aliquam. Nunc eu enim ut mi fermentum accumsan. Nam et laoreet sem. Pellentesque consectetur dapibus feugiat. "
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
+      - title: "An idea begins to form..."
         year: "2009"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
+        desc: "Dr. Kirstin Bett and Lacey Sanderson start putting a plan in action to migrate the University of Saskatchewan, Pulse Research groups growing data collection into a well-curated database."
+        icon: "fas fa-lightbulb"
         align: left
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
+      - title: "Tripal"
+        year: "Early 2010"
+        desc: "After evaluating the options at the time including making a web portal from scratch using Ruby on Rails, Lacey Sanderson finds Tripal and sees the potential! She begins KnowPulse using Tripal version 0.2 on Drupal 6. At this time, Tripal is focused on genomic data. As Lacey works to make it fit breeding focused variant data she submits patches for generic functionality."
+        image: assets/img/timeline/TripalLogo.png
+        alt: "Tripal Logo"
         align: right
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-        #align: #default is left
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the aligment
+      - title: "Officially a Core Contributor to Tripal"
+        year: "November 2011"
+        desc: "Write-access is given to Lacey Sanderson for Tripal making her an official contributor to Core Tripal. Her first large contributions include the Bulk Loader and Drupal Views integration for generic handling of biological data!"
+        icon: "fas fa-code-branch"
+        align: left
+      - title: "Genomics and Genotypic Data Support"
+        year: "2012"
+        desc: "The Pulse Bioinformatics team grows to 3 researchers with 1.5 FTE for KnowPulse! KnowPulse uses Tripal, GBrowse to provide support for sequence data. The ND Genotypes module is developed to support genotypic data and the Genotype Matrix is born."
+        icon: "fas fa-table"
         align: right
-    end: "Be Part <br> of Our <br> Story!"
-
-about:
-    title: "About Us"
-    text: "our story"
-    section: about
-
-clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+      - title: "AGILE: Application of Genomics to Innovation in the Lentil Economy"
+        year: "2014-2018"
+        desc: "The Pulse Bioinformatics team expands to 7 researchers with 5 dedicated to working on KnowPulse! This large-scale Genome Canada funded grant helps the team develop phenotypic data support for KnowPulse: Raw Phenotypes and Analyzed Phenotypes are born."
+        image: assets/img/timeline/AGILElogo.png
+        alt: "AGILE Logo"
+        align: left
+      - title: "EVOLVES: Enhancing the Value of Lentil Variation for Ecosystem Survival"
+        year: "2018-2022"
+        desc: "The Pulse Bioinformatics team focuses on structural variation, nutritional information and third-party integration of tools into KnowPulse."
+        image: assets/img/timeline/EVOLVESlogo.png
+        alt: "EVOLVES Logo"
+        align: right
+    end: "Where<br />will we go<br />Next?"
 
 team:
     title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    text: "KnowPulse is Powered by a team of Experts"
+    subtext: "Behind KnowPulse is a team of intelligent and creative individuals who specialize in breeding and genetics, project management, bioinformatics, molecular biology, relational database and data management and curation."
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+      - name: "Dr. Kirstin Bett"
+        role: "Professor, Project Lead,<br />Plant Breeding & Genetics"
+        image: assets/img/team/kirstin.png
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -99,9 +82,9 @@ team:
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
+      - name: "Laura Jardine"
+        role: "EVOLVES<br />Project Mananger"
+        image: assets/img/team/laura.png
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -109,9 +92,9 @@ team:
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
+      - name: "Lacey-Anne Sanderson"
+        role: "Lead Developer,<br />Bioinformaticist"
+        image: assets/img/team/lacey.png
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -119,6 +102,39 @@ team:
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
+      - name: "Ruobin Liu"
+        role: "Data Curator"
+        image: assets/img/team/ruobin.png
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Carolyn Caron"
+        role: "Bioinformaticist"
+        image: assets/img/team/carolyn.png
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Reynold Tan"
+        role: "Web Developer"
+        image: assets/img/team/rey.png
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+
+
+
 
 contact:
     title: "Contact Us"

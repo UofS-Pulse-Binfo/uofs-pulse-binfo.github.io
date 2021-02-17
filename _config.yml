@@ -16,9 +16,9 @@
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : UofS Pulse Bioinformatics
+title      : "UofS Pulse Bioinformatics: KnowPulse"
 description: "Our group has a strong focus on creating flexible, re-usable open-source software during the course of our work."
-author     : Lacey-Anne Sanderson
+author     : "Lacey-Anne Sanderson"
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
