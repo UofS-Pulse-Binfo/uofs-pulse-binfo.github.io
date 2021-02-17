@@ -52,14 +52,14 @@ timeline:
         desc: "The Pulse Bioinformatics team grows to 3 researchers with 1.5 FTE for KnowPulse! KnowPulse uses Tripal, GBrowse to provide support for sequence data. The ND Genotypes module is developed to support genotypic data and the Genotype Matrix is born."
         icon: "fas fa-table"
         align: right
-      - title: "AGILE: Application of Genomics to Innovation in the Lentil Economy"
-        year: "2014-2018"
+      - title: "[AGILE: Application of Genomics to Innovation in the Lentil Economy](/our-modules/AGILE.html)"
+        year: "2015-2019"
         desc: "The Pulse Bioinformatics team expands to 7 researchers with 5 dedicated to working on KnowPulse! This large-scale Genome Canada funded grant helps the team develop phenotypic data support for KnowPulse: Raw Phenotypes and Analyzed Phenotypes are born."
         image: assets/img/timeline/AGILElogo.png
         alt: "AGILE Logo"
         align: left
-      - title: "EVOLVES: Enhancing the Value of Lentil Variation for Ecosystem Survival"
-        year: "2018-2022"
+      - title: "[EVOLVES: Enhancing the Value of Lentil Variation for Ecosystem Survival](/our-modules/EVOLVES.html)"
+        year: "2019-2023"
         desc: "The Pulse Bioinformatics team focuses on structural variation, nutritional information and third-party integration of tools into KnowPulse."
         image: assets/img/timeline/EVOLVESlogo.png
         alt: "EVOLVES Logo"
