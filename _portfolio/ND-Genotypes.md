@@ -18,6 +18,3 @@ zenodo_url:
 see_live: http://knowpulse.usask.ca/portal/chado/genotype/Lens?germplasm%5B0%5D=6749&germplasm%5B1%5D=6751&page=1
 categories: [Highlighted, SPG, EVOLVES, AGILE, Public]
 ---
-
-* Provides support and visualization of large-scale genotypic data.
-* Specifically, there is a variant-by-germplasm genotype matrix search, download and summary visualizations for genetic marker and sequence variant pages.

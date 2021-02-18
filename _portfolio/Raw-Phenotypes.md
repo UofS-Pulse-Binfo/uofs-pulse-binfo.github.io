@@ -18,5 +18,3 @@ zenodo_url:
 see_live:
 categories: [Highlighted, AGILE, Public]
 ---
-
-* Provides support for management of Raw Phenotypic Data including a researcher-friendly MS Excel upload with validation.

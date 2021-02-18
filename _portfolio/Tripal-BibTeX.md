@@ -18,6 +18,3 @@ zenodo_url:
 see_live:
 categories: [Public]
 ---
-
-* Provides simple import of publications via BibTeX files.
-* There is both a Drush command and a UI Loader.

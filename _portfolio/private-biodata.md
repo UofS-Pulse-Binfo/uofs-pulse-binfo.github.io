@@ -16,5 +16,5 @@ github: https://github.com/UofS-Pulse-Binfo/private_biodata
 zenodo_badge:
 zenodo_url:
 see_live:
-categories: [Hightlighted, AGILE, Public]
+categories: [Highlighted, AGILE, Public]
 ---

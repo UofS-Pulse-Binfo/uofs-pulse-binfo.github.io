@@ -18,5 +18,3 @@ zenodo_url:
 see_live: http://knowpulse.usask.ca/portal/user_charts
 categories: [Public]
 ---
-
-* User-driven D3.js Charts that provide forms that allowing users to input data influencing D3.js charts.

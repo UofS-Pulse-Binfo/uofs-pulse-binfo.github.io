@@ -18,6 +18,3 @@ zenodo_url:
 see_live:
 categories: [Highlighted, SPG, AGILE, Public]
 ---
-
-* Supports loading of VCF files into GMOD Chado.
-* Optimized for large datasets.

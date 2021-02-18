@@ -18,5 +18,3 @@ zenodo_url:
 see_live:
 categories: [Highlighted, AGILE, Public]
 ---
-
-Provides integration with Tripal Map and QTL listings to various content types.

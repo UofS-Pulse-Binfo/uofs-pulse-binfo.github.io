@@ -18,10 +18,3 @@ zenodo_url:
 see_live:
 categories: [Highlighted, SPG, EVOLVES, AGILE, Public]
 ---
-
-This package of modules integrates GMOD JBrowse into your Tripal site providing
-
- - Tripal page integration via Tripal JBrowse Page and
- - a user interface for JBrowse instance creation and management via Tripal JBrowse Management.
-
-This powerful combination allows you to provide seamless genome browsing to your users in an administrator-friendly manner.
