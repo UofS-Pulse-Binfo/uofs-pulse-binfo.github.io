@@ -18,11 +18,3 @@ zenodo_url:
 see_live:
 categories:
 ---
-Use this area to describe your project. **Markdown** supported.
-
-optional info list (delete if not using):
-
-{:.list-inline}
-- Date:
-- Client:
-- Category:
