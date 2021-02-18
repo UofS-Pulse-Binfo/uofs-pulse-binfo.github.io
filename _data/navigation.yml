@@ -8,5 +8,8 @@ nav:
   - title: "About"
     section: timeline
 
+  - title: "Tripal 4"
+    url: Tripal4-Upgrade.html
+
   - title: "Team"
     section: team

@@ -154,3 +154,40 @@ p.project-link {
 	font-weight: bolder;
 	font-size: 1.2em;
 }
+
+p.text-muted.section-subheading {
+	margin-top: 10px;
+	margin-bottom: 100px;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: italic;
+	margin-bottom: 75px;
+	text-transform: none;
+	text-align: center;
+	font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+table.tripal4 {
+	text-align: center;
+}
+table.tripal4 th, table.tripal4 td {
+	padding: 10px;
+	border-left: 1px solid lightgrey;
+	
+}
+table.tripal4 ul {
+	margin: 0;
+	padding: 0;
+}
+table.tripal4 li {
+	list-style-type: none;
+}
+table.tripal4 .lacey {
+	color: green;
+}
+table.tripal4 .carolyn {
+	color: purple;
+}
+table.tripal4 .reynold {
+	color: blue;
+}
